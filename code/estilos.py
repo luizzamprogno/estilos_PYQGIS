@@ -1,5 +1,5 @@
 layers = iface.mapCanvas().layers()
-diretorio =  'C:/Local/Dos/Estilos/estilos.qml'
+diretorio =  'C:/Local/Dos/Estilos/estilos'
 nomesLayersEstilos = []
 
 def define_styles(style):
