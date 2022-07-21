@@ -4,8 +4,6 @@ nomesLayersEstilos = []
 
 def define_styles(style):
 	layer.loadNamedStyle(diretorio + style)
-	renderer = layer.renderer()
-	layer.setRenderer(renderer)
 	layer.triggerRepaint()
 
 for nome in layers:
